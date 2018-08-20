@@ -1,0 +1,30 @@
+
+.heart {
+    cursor: pointer;
+    height: 64px;
+    width: 64px;
+    background-image: url('./hearth.png');
+    background-position: left;
+    background-repeat: no-repeat;
+  }
+
+/* .heart:hover{
+  background-position: -3840px 0;
+  transition: background 1s steps(60);
+} */
+
+.heart:hover {
+    background-position: -64px;
+}
+
+@keyframes heart-burst {
+  from {background-position: 0 0;}
+  to { background-position: -3840px 0;}
+}
+
+.is_animating {
+    animation: heart-burst 1s steps(60) 1;
+}
+  
+
+
