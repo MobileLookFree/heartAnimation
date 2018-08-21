@@ -25,6 +25,7 @@ P {
   height: 64px;
   width: 64px;
   background-image: url('./heart.png');
+  background-size: 6000%;
   background-position: left;
   background-repeat: no-repeat;
 }
