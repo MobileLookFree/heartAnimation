@@ -7,9 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="./heart.css" media="screen,projection" />
-    <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script> -->
-    <script type="text/javascript" src="./jquery.js"></script>
-    <script type="text/javascript" src="./heart.js"></script>
     <title>Heart Animation by Hollo</title>
 </head>
 
@@ -18,10 +15,12 @@
         <H1>I finally rest...</H1>
         <p>Давно хотел сделать подобную веб-анимацию. До появления эмоджи «сердечко» приходилось писать как
             <3. Достойный повод понастальгировать и подизайнить. </p>
-                <div class="heart">
+
+                <div id="heart" class="heart" onclick="heartAnimation()">
                         <span class="tooltip">Меньше чем 3</span>
                 </div>
     </div>
 </body>
 
+<script type="text/javascript" src="./heart.js"></script>
 </html>
